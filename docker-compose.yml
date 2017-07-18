@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  remote:
+    image: desk-img
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      ~/.ssh: /home/docker/.ssh
