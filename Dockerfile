@@ -64,4 +64,4 @@ ADD . /src
 
 EXPOSE 22
 # Start xdm and ssh services.
-CMD ["/bin/bash", "/src/startup.sh"]
+CMD ["/bin/bash", "/src/startup1.sh"]
